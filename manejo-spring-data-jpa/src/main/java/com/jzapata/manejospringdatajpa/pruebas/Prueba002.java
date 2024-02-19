@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Component
+//@Component
 public class Prueba002 implements CommandLineRunner {
     @Autowired
     private AutorRepository autorRepository;
