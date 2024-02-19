@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
-@Component
+//@Component
 public class Prueba003 implements CommandLineRunner {
 
     @Autowired
@@ -19,7 +19,7 @@ public class Prueba003 implements CommandLineRunner {
     @Autowired
     private RevistaRepository revistaRepository;
 
-    @Override
+    //@Override
     public void run(String... args) throws Exception {
         Editor editor1 = new Editor();
         editor1.setNombre("Nombre 01");
